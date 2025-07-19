@@ -11,13 +11,12 @@ bcrypt.hash(password, saltRounds, (err, hash) => {
   }
 });
 
+// INSERT INTO users (name, email, password) VALUES ('Test User', 'testuser@example.com', '$2b$10$xIgDWSfjfUY0nxImf0LCheDWPUKlFS8./MuUd.c8C8qh6Ix9AIQFC');
 
-INSERT INTO users (name, email, password) VALUES ('Test User', 'testuser@example.com', '$2b$10$xIgDWSfjfUY0nxImf0LCheDWPUKlFS8./MuUd.c8C8qh6Ix9AIQFC');
-
-INSERT INTO users ( organization_id, email, password_hash, first_name, last_name, role, status ) VALUES ( 3,
-  'testuser@example.com',
- '$2b$10$xIgDWSfjfUY0nxImf0LCheDWPUKlFS8./MuUd.c8C8qh6Ix9AIQFC',
-    'Test',
-  'User',
- 'admin',
- 'active' );
+// INSERT INTO users ( organization_id, email, password_hash, first_name, last_name, role, status ) VALUES ( 3,
+//   'testuser@example.com',
+//  '$2b$10$xIgDWSfjfUY0nxImf0LCheDWPUKlFS8./MuUd.c8C8qh6Ix9AIQFC',
+//     'Test',
+//   'User',
+//  'admin',
+//  'active' );
